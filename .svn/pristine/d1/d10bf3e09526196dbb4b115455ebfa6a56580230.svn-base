@@ -1,0 +1,6 @@
+<?php
+return array(
+	'crypto_key' => '-IM_O08s0d1gTCAefsUdoB4k',
+	'crypto_iv' => 'FB8AzEk50CCM0fMoNU95o9Rg',
+	'crypto_hmac' => 'zP034smXcqCA6L4E1oE60gko',
+);

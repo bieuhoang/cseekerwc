@@ -1,0 +1,1 @@
+<?php echo View::forge('layouts/blocks/admin/main_menu') ?>

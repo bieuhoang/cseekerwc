@@ -1,0 +1,212 @@
+body, html {
+    font-size: 12px;
+}
+input, select , button { box-shadow: none; border-radius: 0px; }
+.fl { float: left; }
+.fr { float: right; }
+a {
+    color: #56944b;
+}
+label.inline { display: inline-block; }
+.mr10 { margin-right: 10px; }
+.mt10 { margin-top: 10px; }
+.main-menu {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 7px 0;
+}
+.main-menu .nav {
+    margin-bottom: 0px;
+}
+.main-menu .nav a {
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+}
+.main-menu .nav [class*="ico-"] { color: #56944b; }
+.main-menu .nav > li > a:hover {
+    background-color: #56944b;
+    color: #fff;
+}
+.main-menu .nav > li > a:hover [class*="ico-"] {
+    color: #fff;
+}
+
+.nav-top {
+    margin-top: 10px;
+}
+.nav-top .nav, .nav-top .nav-search form {
+    margin-bottom: 0;
+}
+.nav-top a {
+    color: #333;
+    text-decoration: underline;
+}
+.nav-top .nav > li > a {
+    display: inline-block;
+}
+.nav-top .nav > li > a:hover {
+    background: none;
+    text-decoration: underline;
+}
+.user-funcs .nav.nav-pills a {
+    padding: 5px;
+    border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.user-funcs .nav li {
+    margin-left: 10px;
+}
+.nav-top .nav-search { position: relative; }
+.nav-top .nav-search .search-query {
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #56944b;
+    padding-left: 10px;
+}
+.nav-top .nav-search .search-button {
+    background: #56944b;
+    color: #fff;
+    width: 30px;
+    height: 28px;
+    border: none;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    right: 0;
+}
+.header { margin-top: 10px;}
+
+.box-rounded {
+    background: none repeat scroll 0 0 #56944B;
+    border: 1px solid #56944B;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #FFFFFF;
+}    
+.box-rounded .box-rounded-header {
+    color: #FFFFFF;
+    padding: 30px;
+    position: relative;
+}
+.box-rounded .box-rounded-header .icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.box-rounded .box-rounded-header [class*=ico-] {
+    font-size: 40px;
+}
+.box-rounded h2.box-rounded-header-title {
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.box-rounded .box-rounded-header-desc {
+    font-size: 16px;
+}
+.box-rounded .box-rounded-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 7px;
+    -o-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 20px;
+    z-index: 1;
+}
+.box-rounded .box-rounded-content > form {
+    margin-bottom: 0;
+}
+.box-rounded input, .box-rounded select {
+    padding: 4px 0;
+    border: 1px solid #56944B;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.box-rounded input {
+    width: 90%;
+}
+.inline input { width: auto; display: inline; }
+.box-rounded select {
+    width: auto;
+}
+.box-rounded .box-rounded-content .control-group {
+    margin-top: 20px;
+}
+.box-rounded .box-rounded-content .control-group label {
+    color: #56944B;
+}
+
+.submit-register, .submit-login {
+    background: #56944B;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+form label {
+    vertical-align: baseline;
+    margin: 0;
+}
+
+/* === UI Dialog == */
+.ui-dialog {
+    border-color: #56944B;
+    border-radius: 0px;
+    padding: 0;
+    min-width: 360px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-width: 3px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    background: #56944B;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border: none;
+    padding: 0.7em 1em;
+}
+.ui-dialog .ui-dialog-titlebar .ico-info {
+    font-size: 1.5em;
+    float: left;
+    margin-right: 10px;
+}
+.ui-dialog .ui-dialog-content {
+    background: #fff;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    border: none;
+    background: none;
+    color: #fff;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #56944B;
+    margin: 0;
+    padding: 0;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+    background: #56944B;
+    border: none;
+    padding: .5em 1em;
+    color: #fff;
+    font-weight: bold;
+}

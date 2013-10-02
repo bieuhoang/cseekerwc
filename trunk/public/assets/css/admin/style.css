@@ -1,0 +1,183 @@
+.box-logo {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AB2727;
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: -8px;
+    width: 55px;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.login {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 230px;
+    border: 3px solid #D63131;
+}
+.login form {
+    margin: 0;
+}
+.login form input {
+    border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 1px solid #D63131;
+    box-shadow: none;
+}
+.login h2.login-title {
+    background: #D63131;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.login .login-content {
+    padding: 20px 40px;
+}
+.login .form-horizontal .controls {
+    margin-left: 0;
+}
+.login .form-horizontal .control-group:last-child {
+    margin-bottom: 0;
+}
+
+/* === MAIN MENU === */
+.main-menu {
+    background: #D63131;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+}
+.main-menu a {
+    color: #fff;
+}
+.main-menu .nav {
+    margin-bottom: 0;
+    height: 40px;
+}
+.main-menu .nav li {
+    height: 40px;
+}
+.main-menu .nav-pills > li > a {
+    border-radius: 0 0 0 0;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 12px;
+    font-weight: bold;
+}
+.main-menu .nav > li > a:hover {
+    background: #AB2727;
+}
+
+
+/* === UI Dialog == */
+.ui-dialog {
+    border-color: #D63131;
+    border-radius: 0px;
+    padding: 0;
+    min-width: 360px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-width: 3px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    background: #D63131;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border: none;
+    padding: 0.7em 1em;
+}
+.ui-dialog .ui-dialog-titlebar .ico-info {
+    font-size: 1.5em;
+    float: left;
+    margin-right: 10px;
+}
+.ui-dialog .ui-dialog-content {
+    background: #fff;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    border: none;
+    background: none;
+    color: #fff;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #D63131;
+    margin: 0;
+    padding: 0;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+    background: #D63131;
+    border: none;
+    padding: .5em 1em;
+    color: #fff;
+    font-weight: bold;
+}
+.menu-line {
+    background: #D63131;
+    height: 1px;
+    margin-top: 1px;
+}
+
+.user-cp {
+    margin-right: 10px;
+    position: relative;
+}
+.user-cp .username {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.user-cp .username:hover {
+    background: #AB2727;
+}
+.user-cp .sub-user-cp {
+    background: #fff;
+    border: 2px solid #D63131;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    top: 43px;
+    display: none;
+    z-index: 1000;
+}
+.user-cp .sub-user-cp li {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.user-cp .sub-user-cp li:last-child {
+    margin-bottom: 10px;
+}
+.user-cp .sub-user-cp li a {
+    color: #D63131;
+    display: block;
+}
+.user-cp .sub-user-cp li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content .navi {
+    border-bottom: 1px solid #DDDDDD;
+    height: 50px;
+}
+#content .content .sidebar {
+    float: left;
+    width: 15%;
+}
+#content .content .content-right {
+    width: 85%;
+    float: right;
+    border-left: 1px solid #ddd;
+    min-height: 570px;
+    max-height: 570px;
+    overflow: auto;
+}
